@@ -3,6 +3,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Set colour scheme */
+* {
+    --primary-color: #152852;
+    --secondary-color: #FC9C54;
+    --tertiary-color: #ffe373;
+}
+
+/* Style the header */
+h1 {
+    color: var(--primary-color);
+}
 
 
 /* Remove bullets, margin and padding from the navigation bar */
@@ -11,7 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color: var(--secondary-color);
 }
 
 /* Make the navigation links into blocks */
@@ -26,4 +37,9 @@ li a {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
 }
