@@ -10,6 +10,17 @@ body {
     --tertiary-color: #ffe373;
 }
 
+/* Make the header and navigation bar stay at the top of the page even when scrolling */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    width: 100%;
+}
+
 /* Style the header */
 h1 {
     color: var(--primary-color);
@@ -42,4 +53,28 @@ li a {
 li a:hover {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
+}
+
+/* Set the size of the photo of me in the About section */
+
+#photo-of-me {
+    width: 300px;
+}
+
+/* Styling the images in prjects */
+#google-image {
+    width: 300px;
+}
+
+#facebook-image {
+    width: 300px;
+}
+
+/* Styling the contact me form */
+
+#contact form label {
+   display: inline-block;
+   float: left;
+   text-align: right;
+   width: 230px;
 }

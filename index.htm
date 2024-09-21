@@ -4,28 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W1 S3 Challenge</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../w1s3-challenge/assets/style.css">
 </head>
 <body>
+
 <header>
     <h1>
         Joe Bracey Coding
     </h1>
     <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="about.asp">About</a></li>
-        <li><a href="projects.asp">Projects</a></li>
-        <li><a href="contact.asp">Contact</a></li>
+        <li><a href=#top>Home</a></li>
+        <li><a href=#about>About</a></li>
+        <li><a href=#projects>Projects</a></li>
+        <li><a href=#contact>Contact</a></li>
     </ul>
 </header>
 
 <main>
-<section></section>
+<section id="about">
+    <h2>About me</h2>
+    <p>Hi! I am Joe, a Customer Experience Specialist currently completing the coding skills bootcamp with Step8Up.</p>
+    <img src="../w1s3-challenge/assets/IMG_7635.jpeg" id="photo-of-me">
+</section>
 <article></article>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <article id="google">
+        <p>The first project that I created was a web browser.</p>
+        <img src="../w1s3-challenge/assets/google.png" id="google-image">
+    </article>
+    <article id="facebook">
+        <p>The second project was a social media site.</p>
+        <img src="../w1s3-challenge/assets/facebook.png" id="facebook-image">
+    </article>
+</section>
+
+<section id="contact">
+    <h2>Send us a message</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="phone number">Phone number:</label>
+        <input type="tel" id="phone number" name="phone number" pattern="[0-9]{11}">
+        <br>
+        <label for="recipient">Who do you want to message:</label>
+        <select id="recipient" name="recipient">
+            <option value="joe">Joe</option>
+            <option value="tortoise">Tortoise</option>
+            <option value="alice">Alice</option>
+        </select>
+        <br><br><br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+</section>
 </main>
 
 <footer>
-
+    <p>Copyright Joe Bracey Coding 2024</p>
 </footer>
 
 </body>
