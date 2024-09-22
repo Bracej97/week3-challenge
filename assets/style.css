@@ -5,20 +5,26 @@ body {
 
 /* Set colour scheme */
 * {
-    --primary-color: #152852;
-    --secondary-color: #FC9C54;
-    --tertiary-color: #ffe373;
+    --primary-color: #281D42;
+    --secondary-color: #B05D42;
+    --tertiary-color: #D9C56D;
 }
 
 /* Make the header and navigation bar stay at the top of the page even when scrolling */
 header {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 999;
-    padding: 0px;
-    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 1px;
     background-color: white;
     width: 100%;
+}
+
+main {
+    display: inline;
+    padding: px;
 }
 
 /* Style the header */
@@ -58,16 +64,42 @@ li a:hover {
 /* Set the size of the photo of me in the About section */
 
 #photo-of-me {
-    width: 300px;
+    max-width: 300px;
+    min-width: 100px;
 }
 
-/* Styling the images in prjects */
+/* Styling the prjects section */
+#google {
+    display: inline-block;
+    background-color: #cccccc;
+    max-width: 310px;
+    min-width: 310px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+    vertical-align: top;
+}
+
+#facebook {
+    display: inline-block;
+    background-color: #cccccc;
+    max-width: 310px;
+    min-width: 310px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+
 #google-image {
-    width: 300px;
+    max-width: 300px;
+
 }
 
 #facebook-image {
-    width: 300px;
+    max-width: 300px;
 }
 
 /* Styling the contact me form */
