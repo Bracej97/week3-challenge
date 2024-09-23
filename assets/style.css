@@ -1,6 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 /* Set colour scheme */
@@ -101,7 +102,7 @@ li a:hover {
     position:absolute; bottom: 10px;
 }
 
-/* Styling the contact me form
+/* Styling the contact me form */
 
 .form-details {
    display: inline-block;
@@ -110,10 +111,8 @@ li a:hover {
    width: 230px;
    margin-right: 10px
 }
-*/
-.form {
-    text-align: center;
-}
+
+
 
 /* Styling the copyright section */
 footer {
