@@ -5,14 +5,13 @@ body {
 
 /* Set colour scheme */
 * {
-    --primary-color: #281D42;
+    --primary-color: #87344c;
     --secondary-color: #B05D42;
     --tertiary-color: #D9C56D;
 }
 
 /* Make the header and navigation bar stay at the top of the page even when scrolling */
 header {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -27,9 +26,10 @@ main {
     padding: px;
 }
 
-/* Style the header */
-h1 {
+/* Style the titles */
+.title {
     color: var(--primary-color);
+    text-align: center;
 }
 
 
@@ -62,51 +62,61 @@ li a:hover {
 }
 
 /* Set the size of the photo of me in the About section */
-
 #photo-of-me {
+    display: block;
     max-width: 300px;
     min-width: 100px;
+    margin:auto;
 }
 
-/* Styling the prjects section */
-#google {
+/* Styling the projects section */
+#projects {
+    text-align: center;
+}
+
+#projects-div {
     display: inline-block;
-    background-color: #cccccc;
+    margin: auto;
+    overflow: none;
+}
+
+.project-article {
+    display: inline-block;
+    background-color: var(--tertiary-color);
     max-width: 310px;
-    min-width: 310px;
-    height: 400px;
+    min-width: 110px;
+    height: 330px;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 2px;
     vertical-align: top;
+    position: relative;
 }
 
-#facebook {
-    display: inline-block;
-    background-color: #cccccc;
-    max-width: 310px;
-    min-width: 310px;
-    height: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
-    vertical-align: top;
-}
-
-
-#google-image {
+.project-image {
+    display:block;
+    width: 90%;
     max-width: 300px;
-
+    margin: auto;
+    position:absolute; bottom: 10px;
 }
 
-#facebook-image {
-    max-width: 300px;
-}
+/* Styling the contact me form
 
-/* Styling the contact me form */
-
-#contact form label {
+.form-details {
    display: inline-block;
    float: left;
    text-align: right;
    width: 230px;
+   margin-right: 10px
+}
+*/
+.form {
+    text-align: center;
+}
+
+/* Styling the copyright section */
+footer {
+    font-size: 10px;
+    text-align: center;
 }
