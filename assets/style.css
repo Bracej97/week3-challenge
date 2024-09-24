@@ -104,15 +104,21 @@ li a:hover {
 
 /* Styling the contact me form */
 
-.form-details {
-   display: inline-block;
-   float: left;
-   text-align: right;
-   width: 230px;
-   margin-right: 10px
+.input-div {
+    display: inline-block;
+    margin-bottom: 2px;
+    width: 50%;
+    float: right;
+    text-align: left;
 }
 
-
+.label-div {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
 
 /* Styling the copyright section */
 footer {
