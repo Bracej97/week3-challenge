@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+
 }
 
 /* Set colour scheme */
@@ -19,7 +19,7 @@ header {
     padding-bottom: 0px;
     padding-top: 1px;
     background-color: white;
-    width: 100%;
+
 }
 
 
