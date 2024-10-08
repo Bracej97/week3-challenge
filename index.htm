@@ -11,7 +11,11 @@
 <body>
 
 <header>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+
+</header>
+
+<main>
+    <nav class="navbar sticky-top navbar-expand-lg bg-info-subtle">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Joe Bracey Coding</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +32,17 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-</header>
 
-<main>
-    <div class="container">
+      <div class="container">
         <div class="row">
             <div class="col-lg-9">
 
-<div class="card center mb-3" style="width: 18rem;">
+<div class="card center mb-3 bg-info-subtle shadow-lg mt-2" style="width: 18rem;">
     <img src="./assets/IMG_7635.jpeg" class="photo-of-me" alt="photo of Joe with a tortoise">
     <div class="card-body">
       <h5 class="card-title">About me</h5>
@@ -50,7 +52,7 @@
   </div>
 
 
-<div class="accordion" id="past-projects">
+<a id="projects"></a><div class="accordion" id="past-projects">
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -60,7 +62,7 @@
       <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <p>The first project that I created was a small search engine.</p>
-            <img src="./assets/google.png" id="google-image" class="project-image" alt="screenshot of Google search engine">
+            <img src="./assets/google.png" id="google-image" class="project-image" alt="screenshot of Google search engine" width="400px">
         </div>
       </div>
     </div>
@@ -73,7 +75,7 @@
       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <p>The second project was a social media site.</p>
-            <img src="./assets/facebook.png" id="facebook-image" class="project-image" alt="screenshot of Facebook login page">
+            <img src="./assets/facebook.png" id="facebook-image" class="project-image" alt="screenshot of Facebook login page" width="400px">
         </div>
       </div>
     </div>
@@ -105,7 +107,7 @@
 </div>
 </main>
 
-<footer>
+<footer class="bg-info-subtle mt-3 fixed-absolute bottom-0 text-center">
     <p>Copyright Joe Bracey Coding 2024</p>
 </footer>
 
